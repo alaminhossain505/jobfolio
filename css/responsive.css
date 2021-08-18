@@ -1,0 +1,524 @@
+
+/* for extra small divice */
+@media (max-width: 575px) {
+    .navbar{
+        padding-top: 10px !important;
+    }
+
+    .navbar .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    /* for banner  */
+
+    #banner .banner-text h3 {
+        padding-top: 35px!important;
+        font-size: 25px!important;
+    }
+    #banner .banner-text p {
+        font-size: 13px!important;
+        line-height: 22px!important;
+    }
+
+    #banner .banner-img img {
+        width: 90% !important;
+        position: static !important;     
+    }
+    #banner .btn {
+        margin-top: 55px !important;
+    }
+    #banner .btn ul li a{
+        font-size: 14px!important;
+    }
+
+/* for form  */
+
+    #form .form-search {
+        padding: 15px 0 30px 10px !important;
+    }
+
+    #form .frm{
+        margin-top: 10px!important;
+    }
+
+    #form button{
+        font-size: 16px !important;
+        margin-top: 5px!important;
+        margin-left: 33% !important;
+    }
+
+    /* for popular  */
+
+    #popular {
+        margin-top: 40px !important;
+    }
+
+    #popular .popular-header p {
+        margin-bottom: 40px !important;
+    }
+
+    #popular .categories:hover{
+        transform: scale(1) !important;
+    }
+
+    #popular .categories img {
+        padding-top: 50px !important;
+    }
+
+    #popular .btn {
+        margin-bottom: 25px !important;
+    }
+
+    /* for work  */
+
+    #work .work-header h3 {
+        padding-top: 30px !important;
+    }
+
+    /* for jobs  */
+
+    #jobs {
+        padding-top: 35px !important;
+    }
+
+    #jobs .frm {
+        margin-top: 20px !important;
+    }
+
+    #jobs .btn {
+        margin-top: 25px !important;
+    }
+
+    #jobs .check {
+        margin-top: 5px !important;
+        margin-bottom: 20px !important;
+    }
+
+    #jobs .jobs-item {
+        margin-bottom: 10px !important;
+    }
+
+    #jobs .jobs-item .jobs-details p {
+        padding-top: 0px !important;
+    }
+
+    #jobs .jobs-item .location {
+        padding-top: 20px !important;
+    }
+
+    #jobs .jobs-item .money p {
+        padding-top: 10px!important;
+    }
+
+    #jobs .jobs-item .submit {
+        margin-top: 10px !important;
+        padding-left: 150px !important;
+        margin-bottom: 10px!important;
+    }
+
+    #jobs .browse-more {
+        padding-top: 20px !important;
+    }
+
+    #jobs .browse-more .text-end {
+        margin-top: 20px;
+    }
+
+    #jobs .i-want-work {
+        margin-top: 50px !important;
+    }
+
+    /* for worker  */
+    #worker {
+        margin-top: 40px !important;
+        padding: 0px !important;
+    }
+    #worker .worker-details .worker-img .ovarley {
+        right: 18%;
+    }
+
+    #worker .worker-details {
+        margin-top: 20px !important;
+    }
+
+    /* for slider */
+    #slider {
+        margin-top: 20px !important;
+        margin-bottom: 0px !important;
+    }
+
+    #slider .video-part .video-text p {
+        margin-bottom: 20px !important;
+    }
+
+    #slider .slider-part {
+        margin-top: 10px !important;
+    }
+
+    #slider .slider-text-part {
+        margin-top: -20px !important;
+    }
+
+    /* for pertner  */
+    #pertner {
+        margin-top: 10px !important;
+        padding: 0px !important;
+    }
+
+    #pertner .pertner-numbers-social {
+        margin-top: 20px !important;
+    }
+
+    #pertner .pertner-numbers-social .numbers-2 {
+        margin-top: 20px !important;
+    }
+
+    #pertner .pertner-numbers-social .text-center {
+        margin-top: 15px !important;
+    }
+
+    #pertner .pertner-numbers-social::before,
+    #pertner .pertner-numbers-social::after
+    {
+        display: none;
+    }
+
+    #pertner .pertner-numbers-social .social .social-img {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    #footer .ovarley .footer-content {
+        margin-top: 20px !important;
+    }
+
+    #footer .ovarley .footer-content .footer-item {
+        margin-top: 20px;
+    }
+
+    #footer .ovarley .footer-end p {
+        line-height: 30px!important;
+    }
+}
+
+/* for small divice */
+
+@media (min-width:576px) and (max-width:767px) {
+    .navbar{
+        padding-top: 10px !important;
+    }
+    .navbar .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    /* for banner  */
+    #banner .banner-text h3 {
+        padding-top: 35px!important;
+        font-size: 25px!important;
+    }
+    #banner .banner-text p {
+        font-size: 13px!important;
+        line-height: 22px!important;
+    }
+
+    #banner .banner-img img {
+        width: 100% !important;
+        position: static !important;     
+    }
+    #banner .btn {
+        margin-top: 55px !important;
+    }
+    #banner .btn ul li a{
+        font-size: 14px!important;
+    }
+
+    /* for form  */
+    #form .form-search {
+        padding: 15px 0 30px 10px !important;
+    }
+    #form .frm{
+        margin-top: 10px!important;
+    }
+    #form button {
+        font-size: 20px !important;
+        margin-top: 10px !important;
+        margin-left: 4% !important;
+        padding: 10px 83px !important;
+    }
+
+    /* for popular  */
+    #popular {
+        margin-top: 40px !important;
+    }
+    #popular .categories {
+        margin-bottom: 20px !important;
+    }
+    #popular .popular-header p {
+        margin-bottom: 40px !important;
+    }
+
+    /* for work  */
+    #work {
+        margin-top: 50px !important;
+    }
+    #work .work-header h3 {
+        padding-top: 30px !important;
+    }
+
+    /* for jobs  */
+       #jobs {
+        padding-top: 35px !important;
+    }
+
+    
+    #jobs .frm {
+        margin-top: 20px !important;
+    }
+
+    #jobs .btn {
+        margin-top: 25px !important;
+    }
+    #jobs .check form {
+        margin-right: 3% !important;
+    }
+
+    #jobs .check form label {
+        font-size: 13px!important;
+        margin-left: 0px !important;
+    }
+
+    #jobs .browse-more {
+        padding-top: 20px !important;
+    }
+
+    #jobs .browse-more .text-end {
+        margin-top: 20px;
+    }
+
+    #jobs .i-want-work {
+        margin-top: 50px !important;
+    }
+
+    #worker {
+        margin-top: 40px !important;
+        padding: 0px !important;
+    }
+    #worker .worker-details .worker-img .ovarley {
+        right: 18%;
+    }
+
+    #worker .worker-details {
+        margin-top: 20px !important;
+    }
+
+    /* for slider  */
+    #slider {
+        margin-top: 20px !important;
+        margin-bottom: 0px !important;
+    }
+
+    #slider .slider-text-part {
+        margin-top: 40px !important;
+    }
+
+     /* for pertner  */
+     #pertner {
+        margin-top: 40px !important;
+        padding: 0px !important;
+    }
+    #pertner .pertner-numbers-social::before,
+    #pertner .pertner-numbers-social::after
+    {
+        display: none;
+    }
+    #pertner .pertner-numbers-social .numbers-1 h4 {
+        font-size: 28px !important;
+    }
+    #pertner .pertner-numbers-social .numbers-2 h4 {
+        font-size: 26px !important;
+    }
+
+    #pertner .pertner-numbers-social .social .social-img {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+
+ /* for medium divice  */
+@media (min-width:768px) and (max-width:991px) {
+    .navbar{
+        padding-top: 10px !important;
+    }
+    .navbar .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    /* for banner  */
+    #banner .banner-text h3 {
+        padding-top: 35px!important;
+        font-size: 35px!important;
+    }
+    #banner .banner-text p {
+        font-size: 16px!important;
+        line-height: 22px!important;
+    }
+
+    #banner .banner-img img {
+        width: 100% !important;
+        position: static !important;     
+    }
+    #banner .btn {
+        margin-top: 55px !important;
+    }
+    #banner .btn ul li a{
+        font-size: 14px!important;
+    }
+
+    /* for form  */
+    #form .form-search {
+        padding: 15px 0 30px 10px !important;
+    }
+    #form .frm{
+        margin-top: 10px!important;
+    }
+    #form button {
+        font-size: 20px !important;
+        margin-top: 10px !important;
+        margin-left: 0% !important;
+        padding: 10px 45px !important;
+    }
+
+    /* for popular  */
+    #popular {
+        margin-top: 40px !important;
+    }
+    #popular .categories {
+        margin-bottom: 25px !important;
+    }
+    #popular .popular-header p {
+        margin-bottom: 40px !important;
+    }
+
+    /* for work  */
+    #work {
+        margin-top: 50px !important;
+    }
+    #work .work-header h3 {
+        padding-top: 30px !important;
+    }
+
+    /* for jobs  */
+    #jobs {
+        padding-top: 35px !important;
+    } 
+    #jobs .frm {
+        margin-top: 20px !important;
+    }
+    #jobs .btn {
+        margin-top: 17px !important;
+    }
+    #jobs .check form {
+        margin-right: 3% !important;
+    }
+    #jobs .check form label {
+        font-size: 13px!important;
+        margin-left: 0px !important;
+    }
+    #jobs .browse-more {
+        padding-top: 20px !important;
+    }
+    #jobs .browse-more .text-end {
+        margin-top: 20px;
+    }
+    #jobs .i-want-work {
+        margin-top: 50px !important;
+    }
+    #worker {
+        margin-top: 40px !important;
+        padding: 0px !important;
+    }
+    #worker .worker-details .worker-img .ovarley {
+        right: 18%;
+    }
+    #worker .worker-details {
+        margin-top: 20px !important;
+    }
+
+    /* for slider  */
+    #slider {
+        margin-top: 20px !important;
+        margin-bottom: 0px !important;
+    }
+    #slider .slider-text-part {
+        margin-top: 40px !important;
+    }
+
+     /* for pertner  */
+     #pertner {
+        margin-top: 40px !important;
+        padding: 0px !important;
+    }
+    #pertner .pertner-numbers-social::before,
+    #pertner .pertner-numbers-social::after
+    {
+        display: none;
+    }
+    #pertner .pertner-numbers-social .numbers-1 h4 {
+        font-size: 28px !important;
+    }
+    #pertner .pertner-numbers-social .numbers-2 h4 {
+        font-size: 26px !important;
+    }
+
+    #pertner .pertner-numbers-social .social .social-img {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* for jobs  */
+    #jobs .jobs-item .submit {
+        margin-top: 15px !important;
+        padding-left: 60px !important;
+        margin-bottom: 10px !important;
+    }
+
+    /* for slider  */
+    #slider .slider-text-part {
+        margin-top: 66px !important;
+    }
+
+    /* for footer  */
+    #footer .ovarley .footer-content {
+        margin-top: 20px !important;
+    }
+
+    #footer .ovarley .footer-content .footer-item {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:992px),(max-width:1199px) {
+
+    #form button {
+        margin-left: 0 !important;
+    }
+    #jobs .check form {
+        margin-right: 2% !important;
+    }
+    #jobs .jobs-item .money p{
+        font-size: 14px!important;
+    }
+    #jobs .jobs-item .submit a{
+        font-size: 15px!important;
+    }
+    #slider .slider-text-part .slider-item h3{
+        padding-top: 0px !important;
+    }
+    #pertner .pertner-numbers-social .social .social-img img{
+        margin-right: 10px;
+    }
+    #footer .ovarley .footer-content .job-list ul li a .text {
+        font-size: 13px !important;
+    }
+}
